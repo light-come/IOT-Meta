@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\InterFace\InterFace.csproj" />
+    <ProjectReference Include="..\InterFace\OpenAgreement.csproj" />
   </ItemGroup>
 
 </Project>
