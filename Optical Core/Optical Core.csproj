@@ -13,8 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GrandSql\GrandSql.csproj" />
-    <ProjectReference Include="..\Other\InterFace\InterFace.csproj" />
+    <ProjectReference Include="..\Other\InterFace\OpenAgreement.csproj" />
   </ItemGroup>
 
 </Project>

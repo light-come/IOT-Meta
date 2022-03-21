@@ -32,7 +32,7 @@ namespace OpticalCore
         internal static extern bool SetConsoleMode(IntPtr hConsoleHandle, uint mode);
         #endregion
         #region 初始化拓展
-        public static Dictionary<String, ObtainInterFace.plugins> Method = ObtainInterFace.ObtainPlugins("IExpand");
+        public static Dictionary<String, OpenDLL.plugins> Method = OpenDLL.ObtainPlugins("IExpand");
         #endregion
 
         static void Main(string[] args)

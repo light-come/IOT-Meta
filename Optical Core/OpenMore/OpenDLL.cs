@@ -1,14 +1,13 @@
-﻿using InterFace;
+﻿using MODLL_OA;
 using Serilog;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
-using System.Text;
 
 namespace ConsoleServer.IInterFace
 {
-    class ObtainInterFace
+    class OpenDLL
     {
         static List<Type> typeofList = new List<Type> {typeof(IExpand) };
         //public static Dictionary<String, object> IPluginList {get; set;}
