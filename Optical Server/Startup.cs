@@ -95,17 +95,10 @@ namespace OpticalServer
 
         private readonly string AllowSpecificOrigin = "AllowSpecificOrigin";
 
-        UseDirectoryBrowser useDirectoryBrowser = new UseDirectoryBrowser();
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-
-            var c = useDirectoryBrowser.Configure(@"D:\数据\模型数据");
-#if DEBUG
-            System.Diagnostics.Process.Start("explorer", c.url);
-#endif
-
-
+           
             app.UseMiddleware<CorsMiddleware>();
 
             //启用中间件服务生成Swagger作为JSON终结点
@@ -131,4 +124,5 @@ namespace OpticalServer
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
+
 }

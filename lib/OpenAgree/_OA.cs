@@ -3,7 +3,7 @@
 namespace MODLL_OA
 {
 
-    public interface IG_OV
+    public interface IOV
     {
         public delegate void SomeCalculateWay(IReturnParameters RP);
 

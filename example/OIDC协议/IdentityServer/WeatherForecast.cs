@@ -1,6 +1,6 @@
 using System;
 
-namespace Optical.Server.Testing
+namespace IdentityServer
 {
     public class WeatherForecast
     {
