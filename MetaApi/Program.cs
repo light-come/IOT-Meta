@@ -1,14 +1,14 @@
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using OpticalServer.MQTT;
-using Serilog;
+using Microsoft.Extensions.Logging;
 using System;
-using System.IO;
+using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
-using System.Timers;
 
-namespace OpticalServer
+namespace MetaApi
 {
     public class Program
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace OpticalServer
+namespace MetaApi
 {
     public class WeatherForecast
     {
